@@ -16,28 +16,50 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
+	
+	<style>
+	div {
+		border: 1px dotted black;
+	}
+	</style>
 </head>
 <body>
-	<h1>Hello, world!</h1>
 	
-	<div class="row">
-		<div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
-		<div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+	<div class="container-fluid">
+		<h1>Hello, world!</h1>
 	</div>
+		
+	<div class="container">
+		
+		<h3>Link</h3>
+		<div><a href="#">Some text</a></div>
 
+		<h3>My own divs</h3>
+		<div class="row">
+			<div class="col-md-3 col-md-offset-3">col-md-3 col-md-offset-3</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
+			<div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+		</div>
+
+		<h3>Basic</h3>
 		<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-	<div class="row">
-		<div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-		<div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-		<div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-	</div>
+		<div class="row">
+			<div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+			<div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+			<div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+		</div>
 
-		<!-- Columns are always 50% wide, on mobile and desktop -->
-	<div class="row">
-		<div class="col-xs-6">.col-xs-6</div>
-		<div class="col-xs-6">.col-xs-6</div>
-	</div>
+			<!-- Columns are always 50% wide, on mobile and desktop -->
+		<div class="row">
+			<div class="col-xs-6">.col-xs-6</div>
+			<div class="col-xs-6">.col-xs-6</div>
+		</div>
 	
+	</div>
+		
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
