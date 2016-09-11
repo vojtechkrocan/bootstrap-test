@@ -31,31 +31,41 @@
 	
 	<div id="second" class="container">
 		
+		<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+		
 		<h3>Form</h3>
+		<div class="bs-callout bs-callout-info">
+			This is text.
+		</div>
+		
+		<h3>Sing in form</h3>
 		<form class="form-horizontal">
 			
 			<div class="form-group">
-				<label for="first_name" class="control-label col-sm-1">Jméno</label>
-				<div class="col-sm-5">
-					<input type="text" class="form-control" id="first_name">
+				<label for="username" class="control-label col-md-2">Uživatelské jméno</label>
+				<div class="col-md-5">
+					<input type="text" class="form-control" id="username">
 				</div>
 			</div>
 			
 			<div class="form-group">
-				<label for="last_name" class="control-label col-sm-1">Příjmení</label>
-				<div class="col-sm-5">
-					<input type="text" class="form-control" id="last_name">
-				</div>
-			</div>
-			
-			<div class="form-group">
-				<label for="password" class="control-label col-sm-1">Příjmení</label>
-				<div class="col-sm-5">
+				<label for="password" class="control-label col-md-2">Heslo</label>
+				<div class="col-md-5">
 					<input type="password" class="form-control" id="password">
 				</div>
 			</div>
 			
-			<div class="col-sm-offset-1">
+			<div class="form-group">
+				<div class="col-md-5 col-md-offset-2">
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" id="remember"> Pamatovat si mě
+						</label>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-sm-offset-2">
 				<button type="submit" class="btn btn-primary">Odeslat</button>
 				<button type="submit" class="btn btn-default">Zrušit</button>
 			</div>
