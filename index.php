@@ -26,51 +26,83 @@
 <body>
 	
 	<div class="container-fluid">
-		<h1>Examples 2:</h1>
+		<h1>Examples 3:</h1>
+	</div>
+	<div id="third" class="container">
+		
+		<div class="alert alert-info">
+			<strong>Info</strong> about your personal information. Is it fucking ok?
+		</div>
+		
+		<div class="well">
+			Co to ma bejt?
+		</div>
+		
+		<div class="jumbotron">
+			<h1>Krocanův jumbotron</h1> 
+			<p>No mooc nečum, kriple.</p>
+		</div>
+		
+		<div class="">
+			<img src="img/turkey.jpg" class="img-thumbnail" width="300" height="auto">
+		</div>
+		
+		
+		<button type="button" class="btn btn-default btn-lg">
+			<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> User
+		</button>
+		
+		
+		<p>This is text. Bla, bla bla.</p>
+		<p class="lead">Hey, are you gay?</p>
+		
 	</div>
 	
+	<div class="container-fluid">
+		<h1>Examples 2:</h1>
+	</div>
 	<div id="second" class="container">
-		
-		<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-		
+			
 		<h3>Form</h3>
 		<div class="bs-callout bs-callout-info">
 			This is text.
 		</div>
 		
 		<h3>Sing in form</h3>
-		<form class="form-horizontal">
-			
-			<div class="form-group">
-				<label for="username" class="control-label col-md-2">Uživatelské jméno</label>
-				<div class="col-md-5">
-					<input type="text" class="form-control" id="username">
-				</div>
-			</div>
-			
-			<div class="form-group">
-				<label for="password" class="control-label col-md-2">Heslo</label>
-				<div class="col-md-5">
-					<input type="password" class="form-control" id="password">
-				</div>
-			</div>
-			
-			<div class="form-group">
-				<div class="col-md-5 col-md-offset-2">
-					<div class="checkbox">
-						<label>
-							<input type="checkbox" id="remember"> Pamatovat si mě
-						</label>
+		<div class="row">
+			<form class="form-horizontal">
+
+				<div class="form-group">
+					<label for="username" class="control-label col-md-2">Uživatelské jméno</label>
+					<div class="col-md-5">
+						<input type="text" class="form-control" id="username">
 					</div>
 				</div>
-			</div>
-			
-			<div class="col-sm-offset-2">
-				<button type="submit" class="btn btn-primary">Odeslat</button>
-				<button type="submit" class="btn btn-default">Zrušit</button>
-			</div>
-				
-		</form>
+
+				<div class="form-group">
+					<label for="password" class="control-label col-md-2">Heslo</label>
+					<div class="col-md-5">
+						<input type="password" class="form-control" id="password">
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="col-md-5 col-md-offset-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" id="remember"> Pamatovat si mě
+							</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-offset-2">
+					<button type="submit" class="btn btn-primary">Odeslat</button>
+					<button type="submit" class="btn btn-default">Zrušit</button>
+				</div>
+
+			</form>
+		</div>
 		
 		
 		<h3 class="text-capitalize">Responsive table</h3>
