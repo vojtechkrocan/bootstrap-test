@@ -30,7 +30,53 @@
 	</div>
 	<div id="third" class="container">
 		
-		<div class="alert alert-info">
+		<div class="dropdown">
+			<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				Dropdown
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
+				<li><a href="#">Option1</a></li>
+				<li><a href="#">Option2</a></li>
+				<li><a href="#">Option3</a></li>
+				<li role="separator" class="divider"><a href="#">Option3</a></li>
+				<li><a href="#">Separated option</a></li>
+			</ul>
+		</div>
+		
+		<hr>
+				
+		<div>
+			<button type="button" class="btn btn-default btn-lg">
+				<span class="glyphicon glyphicon-user" aria-hidden="true"></span> User
+			</button>
+		</div>
+		
+		<hr>
+		
+		<div class="btn-group">
+			<button type="button" class="btn btn-primary">Ubuntu</button>
+			<button type="button" class="btn btn-primary">Mint</button>
+			<div class="btn-group">
+				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+					Red hat <span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="#">Red hat</a></li>
+					<li><a href="#">Fedora</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<hr>
+		
+		<div class="alert alert-success fade in">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+			<strong>Success!</strong> This alert box could indicate a successful or positive action.
+		</div>
+		
+		<div class="alert alert-info fade in">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 			<strong>Info</strong> about your personal information. Is it fucking ok?
 		</div>
 		
@@ -46,13 +92,7 @@
 		<div class="">
 			<img src="img/turkey.jpg" class="img-thumbnail" width="300" height="auto">
 		</div>
-		
-		
-		<button type="button" class="btn btn-default btn-lg">
-			<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> User
-		</button>
-		
-		
+
 		<p>This is text. Bla, bla bla.</p>
 		<p class="lead">Hey, are you gay?</p>
 		
