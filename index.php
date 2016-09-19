@@ -11,7 +11,6 @@
 	<link href="css/bootstrap.css" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -24,6 +23,61 @@
 	</style>
 </head>
 <body>
+	
+	<!-- TODO
+		- Bootstrap/JavaScript - Modal - Usage
+		- v nette vytvorit komponentu (control), ktera se zobrazi pri otevreni modalniho okna
+		- zapsat si fade u modalniho okna - mozna pouzivat bez nej, animace je diky pomalosti hnusna
+		- kouknout jak bootstrap <indikuje> otevreny modalni okno a vytvorit zabezpeceni, aby se nikdy dve nespustily
+	-->
+	
+	<div class="container-fluid">
+		<h1>Examples 4:</h1>
+	</div>
+	<div id="fourth" class="container">
+		
+		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#turkeyModal">
+			Open modal
+		</button>
+		
+		<div id="turkeyModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			
+			<div class="modal-dialog" role="document">
+				
+				<div class="modal-content">
+					
+					<div class="modal-header">
+						
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						
+						<h4>Turkey's modal</h4>
+						
+					</div><!-- modal-header -->
+					
+					<div class="modal-body">
+						<p>
+							This is text in modal body. Information, information,
+							another information, more information.
+						</p>
+					</div><!-- modal-body -->
+					
+					<div class="modal-footer">
+						
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Submit</button>
+						
+					</div><!-- modal-footer -->
+					
+				</div><!-- modal-content -->
+				
+			</div><!-- modal-dialog -->
+			
+		</div><!-- modal -->
+		
+	</div>
+	
 	
 	<div class="container-fluid">
 		<h1>Examples 3:</h1>
@@ -290,7 +344,8 @@ for(int i = 1; i == 10; i++)
 	</div>
 		
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+	<script src="js/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/bootstrap.min.js"></script>
 </body>
